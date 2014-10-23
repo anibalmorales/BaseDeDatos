@@ -31,7 +31,6 @@
  <input id="direccion" type="text" name="direccion" placeholder="Direccion" required="" /></br>
  <input id="submit" type="submit" name="submit" value="Enviar" />
 </form>
-
   </section>
 
 <?php }
