@@ -1,4 +1,4 @@
-INICIO						|principal.ph
+INICIO						|principal.php
 NUEVO PACIENTE					|nuevocliente.php
 HISTORIAL CLINICO				|formulario.php
 LOGOUT						|Logout.php
