@@ -15,6 +15,7 @@
  </head>
  <body>
 <?php
+
 		if($_SESSION['valido']==1)
 		{ 
 	?>
