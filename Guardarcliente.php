@@ -1,5 +1,4 @@
 <?php
-
   include("conectar_bd.php");  
     conectar_bd();
 
@@ -12,6 +11,4 @@ $conexio = "INSERT INTO cliente (nombre,apellido,telefono, direccion) VALUES ('$
 mysql_query($conexio); 
 
 header('location: nuevocliente.php');
-
-
 ?>
