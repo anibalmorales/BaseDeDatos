@@ -2,6 +2,7 @@
 $conexio;
 function conectar_bd()
 {
+    
     global $conexio;
     //Definir datos de conexion con el servidor MySQL
     $elUsr = "root";
