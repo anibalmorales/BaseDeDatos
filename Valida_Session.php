@@ -28,5 +28,4 @@
 		$_SESSION['valido']=0;
 		header('location: Login.php');
 	}
-
 ?>
