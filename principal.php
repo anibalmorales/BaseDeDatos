@@ -16,7 +16,7 @@
 		if($_SESSION['valido']==1)
 		{ 
 	?>
-	<h2>PAGINA PRINCIPAL PROYECTO DE BASE DE DATOS</h2>
+	<h2>PAGINA PRINCIPAL PROYECTO DE BASE DE DATOSs</h2>
 	
 	<?php }
 	else
