@@ -1,0 +1,14 @@
+<?php
+
+include 'conexion.php';
+$sql="select * from cliente";
+$res=mysql_query($sql,$con);
+
+ echo '<td>'.$fila['idcliente'].'</td>';
+   		echo '<td>'.$fila['nombre'].'</td>';
+   		echo '<td>'.$fila['apellido'].'</td>';
+   		echo '<td>'.$fila['direccion'].'</td>';
+   		echo '<td>'.$fila['telefono'].'</td>';
+		echo '<td><a href="reporte_historial.php?id='.$fila['idcliente'].'">ver</a></td></tr>';
+			echo "</table>";
+?>
